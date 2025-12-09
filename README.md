@@ -26,29 +26,29 @@ The output includes **timestamps**, **speaker labels**, and **transcribed dialog
 ├── requirements.txt
 └── README.md
 
-1. Create & Activate Virtual Environment
+## 1. Create & Activate Virtual Environment
 -----------------------------------------------
 python -m venv venv
 venv\Scripts\activate  # Windows
  or
 source venv/bin/activate  # Linux/Mac
 
-2. Install Dependencies
+## 2. Install Dependencies
 -----------------------------------------------
 pip install -r requirements.txt
 
-3. Add Hugging Face Token
+## 3. Add Hugging Face Token
 -----------------------------------------------
 Create a .env file in root:
 
 HF_TOKEN=hf_your_token_here
 
-4. Update Audio File Path in Code
+## 4. Update Audio File Path in Code
 -----------------------------------------------
 Inside main.py, set your MP3/WAV file path:
 
 AUDIO_FILE = r"Path\to\your\audio.mp3"
 
-5. Run the Application
+## 5. Run the Application
 -----------------------------------------------
 python main.py
