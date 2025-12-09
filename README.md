@@ -30,7 +30,7 @@ The output includes **timestamps**, **speaker labels**, and **transcribed dialog
 -----------------------------------------------
 python -m venv venv
 venv\Scripts\activate  # Windows
-# or
+ or
 source venv/bin/activate  # Linux/Mac
 
 2. Install Dependencies
